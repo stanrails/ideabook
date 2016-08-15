@@ -51,6 +51,7 @@ gem 'rails_config'
 gem 'acts_as_votable', github: 'ryanto/acts_as_votable'
 gem 'validates_formatting_of'
 gem 'tzinfo-data'
+gem 'font-awesome-rails'
 
 group :development, :test do
   gem 'rspec-rails'
@@ -65,4 +66,6 @@ end
 
 group :development do
   gem 'better_errors'
+  gem 'guard'
+  gem 'guard-livereload', '~> 2.5', require: false
 end

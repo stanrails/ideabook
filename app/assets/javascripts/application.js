@@ -10,9 +10,20 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+
+//= require jquery.1.11.1
+//= require SmoothScroll
+//= require jqBootstrapValidation
+//= require contact
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
-
+//= require bootstrap-sprockets
+//= require jquery.ajaxchimp
+//= require jquery.backstretch.min
+//= require jquery.easing.min
+//= require owl.carousel.min
+//= require wow.min
+//= require main
 //= require_tree .
