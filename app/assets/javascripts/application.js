@@ -11,15 +11,17 @@
 // about supported directives.
 //
 
-//= require jquery.1.11.1
+
 //= require SmoothScroll
 //= require jqBootstrapValidation
 //= require contact
-//= require jquery
+
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
 //= require bootstrap-sprockets
+//= require jquery.1.11.1
+//= require jquery
 //= require jquery.ajaxchimp
 //= require jquery.backstretch.min
 //= require jquery.easing.min
