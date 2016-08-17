@@ -28,9 +28,74 @@ CSS Style Structure
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=Muli:300,400,400italic,300italic);
 
+/**************************
+***** Colors *************
+**************************/
+$kite-white: #fff;
+$kite-blue: #34314C;
+$kite-text: #222;
 
+/**************************
+********* Customizations *********
+**************************/
+.navbar {
+  background-color: rgba(52, 49, 76, 1);
+  color: $kite-white;
+  font-size: 1.0rem;
+  text-transform: uppercase;
+}
+.navbar-default {
+  border:none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
+h1 {
+  font-family:'Helvetica Neue' !important;
+}
 
-
+.emphasis-bold {
+  font-family:'Helvetica Neue';
+  font-weight:bold;
+}
+.emphasis-thin {
+  font-family:'Helvetica Neue';
+  font-weight:100;
+  letter-spacing:2px;
+}
+.home-top {
+  background-image: url("bg/01.jpg");
+}
+.alert {
+  margin-bottom:0;
+}
+.coloroverlay-static {
+  height: 100vh;
+  padding-top: 4rem;;
+  padding-bottom: 80px;
+  background: rgba(52, 49, 76, 1);
+}
+.panel-body {
+  color:$kite-text;
+}
+.course-title {
+  margin-top: 0;
+margin-bottom: 0;
+font-size: 16px;
+color: inherit;
+font-size: 1.7rem;
+padding: 10px;
+font-family: 'Helvetica Neue';
+font-weight:'thin';
+text-align: left;
+}
+.course-description {
+  font-size:1.2rem;
+  font-weight:100;
+}
 /**************************
 ********* General *********
 **************************/
@@ -162,10 +227,11 @@ a.btn { margin: 0 10px 0 0 }
     color: #ffffff;
 }
 img.logo { height: 40px }
+
 .coloroverlay {
-    padding-top: 120px;
+    padding-top: 4rem;;
     padding-bottom: 80px;
-    background: rgba(0, 90, 143, 0.9);
+    background: rgba(52, 49, 76, 1);
 }
 .btn-colored {
     padding: 15px 25px;
@@ -614,7 +680,7 @@ section#contact .text-danger {
 .alert-success {
     color: #ffffff;
     letter-spacing: 1px;
-    background-color: transparent !important;
+    background-color: #34314C !important;
     border-color: transparent !important;
     border-radius: 0px;
 }

@@ -27,5 +27,7 @@
 //= require jquery.easing.min
 //= require owl.carousel.min
 //= require wow.min
+//= require parallax
+//= require jquery.parallax
 //= require main
 //= require_tree .
