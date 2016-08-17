@@ -12,10 +12,6 @@
 //
 
 
-//= require SmoothScroll
-//= require jqBootstrapValidation
-//= require contact
-
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
