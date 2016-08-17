@@ -22,12 +22,4 @@
 //= require bootstrap-sprockets
 //= require jquery.1.11.1
 //= require jquery
-//= require jquery.ajaxchimp
-//= require jquery.backstretch.min
-//= require jquery.easing.min
-//= require owl.carousel.min
-//= require wow.min
-//= require parallax
-//= require jquery.parallax
-//= require main
 //= require_tree .
