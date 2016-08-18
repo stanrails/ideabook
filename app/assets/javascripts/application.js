@@ -12,20 +12,10 @@
 //
 
 
-//= require SmoothScroll
-//= require jqBootstrapValidation
-//= require contact
-//= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
 //= require bootstrap-sprockets
-//= require jquery.ajaxchimp
-//= require jquery.backstretch.min
-//= require jquery.easing.min
-//= require owl.carousel.min
-//= require wow.min
-//= require parallax
-//= require jquery.parallax
-//= require main
+//= require jquery.1.11.1
+//= require jquery
 //= require_tree .
