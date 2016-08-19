@@ -5,8 +5,14 @@
       </a>
     <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", "/" %></li>
-        <li><%= link_to "IdeaCamp", "/ideacamp" %></li>
-        <li><%= link_to "IdeaIntensive", "/ideaintensive" %></li>
+        <li><%= link_to "/ideacamp" do %>
+            <span style="font-weight:bold">Idea</span><span style="font-weight:100;">Camp</span>
+            <% end %>
+          </li>
+        <li><%= link_to "/ideaintensive" do %>
+          <span style="font-weight:bold">Idea</span><span style="font-weight:100;">Intensive</span>
+          <% end %>
+        </li>
       </ul>
   </div>
 </nav>
