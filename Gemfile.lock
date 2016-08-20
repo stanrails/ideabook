@@ -45,6 +45,8 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.4.0)
+    animate-rails (1.0.10)
+      rails
     arel (5.0.1.20140414130214)
     autoprefixer-rails (6.4.0.2)
       execjs
@@ -288,6 +290,7 @@ PLATFORMS
 
 DEPENDENCIES
   acts_as_votable!
+  animate-rails
   better_errors
   binding_of_caller
   bootstrap-sass (= 3.3.5)

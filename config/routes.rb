@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'landings/index'
   get '/ideacamp' => 'landings#ideacamp'
   get '/ideaintensive' => 'landings#ideaintensive'
+  get '/core7'=>'landings#core7';
 
   get '/church' => 'landings#church'
   get '/legal' => 'landings#legal'

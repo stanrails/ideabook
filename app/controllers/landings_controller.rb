@@ -1,6 +1,9 @@
 class LandingsController < ApplicationController
   def index
   end
+  
+  def core7
+  end
 
   def ideacamp
   end
